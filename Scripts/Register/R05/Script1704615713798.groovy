@@ -19,6 +19,6 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('');
 WebUI.navigateToUrl('https://www.demoblaze.com/');
 WebUI.click(findTestObject('Object Repository/SingUp'));
-WebUI.setText(findTestObject('Object Repository/Username'),'Ha Vu');
-WebUI.setEncryptedText(findTestObject('Object Repository/Password'),'lJzZhGHrSEA=');
+WebUI.setText(findTestObject('Object Repository/Username'),'Vu Nguyen');
+WebUI.setEncryptedText(findTestObject('Object Repository/Password'),'EuWuLv7XlPGrJI62dJQ8TQ==');
 WebUI.click(findTestObject('Object Repository/btn_SingUp'));
