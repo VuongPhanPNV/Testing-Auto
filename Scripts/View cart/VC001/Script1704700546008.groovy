@@ -18,5 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
+
 WebUI.navigateToUrl('https://www.demoblaze.com/')
+
 WebUI.click(findTestObject('Object Repository/button_cart'))
+
+WebUI.closeBrowser()
+

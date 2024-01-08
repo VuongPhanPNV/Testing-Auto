@@ -29,3 +29,5 @@ WebUI.click(findTestObject('Object Repository/a_Add to cart'))
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/a_Cart'))
 
+WebUI.closeBrowser()
+
