@@ -16,20 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
 WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://www.demoblaze.com/')
-
-WebUI.click(findTestObject('Object Repository/Page_STORE/a_Log in'))
-
-WebUI.setText(findTestObject('Object Repository/Page_STORE/inputloginusername'), 'ThiLoan')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_STORE/inputloginpassword'), 'M1Lnyl0phgn1JV2kuvT1pw==')
-
-WebUI.click(findTestObject('Object Repository/Page_STORE/button_Log in'))
-
-WebUI.click(findTestObject('Object Repository/Page_STORE/img_card-img-top img-fluid'))
-
-WebUI.click(findTestObject('Object Repository/Page_STORE/a_Add to cart'))
+WebUI.click(findTestObject('Object Repository/a_Cart'))
+WebUI.click(findTestObject('Object Repository/btn_PlaceOrder'))
+WebUI.setText(findTestObject('Object Repository/input_Name'),'Vu Nguyen')
+WebUI.setText(findTestObject('Object Repository/input_Country'),'Viet Nam')
+WebUI.setText(findTestObject('Object Repository/input_City'), 'Hue')
+WebUI.setText(findTestObject('Object Repository/input_CreditCard'),'078654621134')
+WebUI.setText(findTestObject('Object Repository/input_Month'), '1')
+WebUI.setText(findTestObject('Object Repository/input_Year'), '2024')
+WebUI.click(findTestObject('Object Repository/btn_Purchase'))
 
