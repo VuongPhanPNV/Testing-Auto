@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Log in</name>
+   <name>a_Add to cart</name>
    <tag></tag>
-   <elementGuidId>769f463d-c6c4-41a4-91cf-6108af26e0a0</elementGuidId>
+   <elementGuidId>3f911cd3-bfb9-42ac-9344-52d2e584c2da</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#logInModal > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.btn-primary</value>
+         <value>a.btn.btn-success.btn-lg</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[9]</value>
+         <value>//a[@onclick='addToCart(10)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>722fd889-bf83-41b2-bd00-befdce09a86f</webElementGuid>
+      <value>a</value>
+      <webElementGuid>c68b6d00-08d6-4325-8b5f-20662baa0f66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>ee6eca4b-3213-4cfe-a3ed-50018ebf7043</webElementGuid>
+      <value>#</value>
+      <webElementGuid>c70ed8f9-c53f-4154-a1a9-e801ed708d5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>logIn()</value>
-      <webElementGuid>97b618b1-f32c-4d94-adf5-72db421680b4</webElementGuid>
+      <value>addToCart(10)</value>
+      <webElementGuid>c1126801-ae46-4728-b689-c1fd8badd713</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary</value>
-      <webElementGuid>63fd9fef-0c3b-4cd4-a7c7-41d450fd8763</webElementGuid>
+      <value>btn btn-success btn-lg</value>
+      <webElementGuid>783e27ed-598a-4bef-9bb8-bdedd25edb1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log in</value>
-      <webElementGuid>99ba5f31-84e5-4885-8930-f61c656ea5e5</webElementGuid>
+      <value>Add to cart</value>
+      <webElementGuid>123c2526-f5ed-4f4d-b23a-ff3abec6b9a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;logInModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>10ce8f93-b9fa-47bf-b9c7-6c9d373eeb32</webElementGuid>
+      <value>id(&quot;tbodyid&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-lg-6&quot;]/a[@class=&quot;btn btn-success btn-lg&quot;]</value>
+      <webElementGuid>b203952b-704f-4816-9b24-3822014668f6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[9]</value>
-      <webElementGuid>48fbe14c-3a03-4e30-b25e-ff4005c94b18</webElementGuid>
+      <value>//a[@onclick='addToCart(10)']</value>
+      <webElementGuid>20c654ce-0cf9-41f2-8a47-dddebfbae53f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='logInModal']/div/div/div[3]/button[2]</value>
-      <webElementGuid>89295343-0583-49b1-a279-6beb93d996a8</webElementGuid>
+      <value>//div[@id='tbodyid']/div[2]/div/a</value>
+      <webElementGuid>db61d270-b245-4af4-a922-e43f314187a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Add to cart')]</value>
+      <webElementGuid>3bcf2527-7920-419e-a918-5d09a35d94e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[9]</value>
+      <webElementGuid>c1b74a7c-d615-4525-9b31-e60d8d5e584f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div[3]/button[2]</value>
-      <webElementGuid>ba44a372-84dd-42cd-a86f-9276167f837a</webElementGuid>
+      <value>//div[2]/div/a</value>
+      <webElementGuid>8f253b8b-c4b2-4b8f-bf8d-50ea9fead8f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Log in' or . = 'Log in')]</value>
-      <webElementGuid>3857eea9-b277-4a82-b4be-2d47aeea8941</webElementGuid>
+      <value>//a[@href = '#' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
+      <webElementGuid>52dcca30-e6b4-4da1-a822-8584c4dd6b75</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
