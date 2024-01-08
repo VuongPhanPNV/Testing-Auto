@@ -25,7 +25,7 @@ WebUI.click(findTestObject('a_Laptops'))
 
 WebUI.click(findTestObject('Page_STORE/img_card-img-top img-fluid'))
 
-WebUI.click(findTestObject('Add_to_cart/Page_STORE/a_Add to cart'))
+WebUI.click(findTestObject('Object Repository/a_Add to cart'))
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/a_Cart'))
 
