@@ -25,6 +25,8 @@ WebUI.navigateToUrl('https://www.demoblaze.com/')
 WebUI.click(findTestObject('Object Repository/Page_STORE/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_STORE/inputloginusername'), 'ThiLoan')
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_STORE/inputloginpassword'), 'M1Lnyl0phgn1JV2kuvT1pw==')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_STORE/inputloginpassword'), '')
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/button_Log in'))
+
