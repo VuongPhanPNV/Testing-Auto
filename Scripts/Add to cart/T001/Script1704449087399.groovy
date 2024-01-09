@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.demoblaze.com/')
 
-WebUI.navigateToUrl('https://www.demoblaze.com/')
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/a_Log in'))
 
@@ -32,4 +32,3 @@ WebUI.click(findTestObject('Object Repository/Page_STORE/button_Log in'))
 WebUI.click(findTestObject('Object Repository/Page_STORE/img_card-img-top img-fluid'))
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/a_Add to cart'))
-

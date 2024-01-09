@@ -16,8 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-WebUI.openBrowser('');
-WebUI.navigateToUrl('https://www.demoblaze.com/');
+WebUI.openBrowser('https://www.demoblaze.com/')
+WebUI.maximizeWindow()
 WebUI.click(findTestObject('Object Repository/SingUp'));
 WebUI.setText(findTestObject('Object Repository/Username'),' ');
 WebUI.setEncryptedText(findTestObject('Object Repository/Password'),' ');
