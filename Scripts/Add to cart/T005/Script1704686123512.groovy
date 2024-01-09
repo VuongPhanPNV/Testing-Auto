@@ -29,8 +29,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Add_to_cart/Page_STORE/
 
 WebUI.click(findTestObject('Object Repository/Add_to_cart/Page_STORE/button_Log in'))
 
-WebUI.click(findTestObject('null'))
-
 WebUI.click(findTestObject('Object Repository/Add_to_cart/Page_STORE/img_card-img-top img-fluid'))
 
 WebUI.click(findTestObject('Object Repository/Add_to_cart/Page_STORE/a_Add to cart'))
