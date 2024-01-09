@@ -20,18 +20,11 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.demoblaze.com/')
+WebUI.click(findTestObject('Object Repository/Page_STORE/a_Log in'))
+WebUI.setText(findTestObject('Object Repository/Page_STORE/inputloginusername'), 'ThiLoan')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_STORE/inputloginpassword'), 'M1Lnyl0phgn1JV2kuvT1pw==')
+WebUI.click(findTestObject('Object Repository/Page_STORE/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Add_to_cart/Page_STORE/a_Log in'))
+WebUI.click(findTestObject('Object Repository/Page_STORE/a_Cart'))
 
-WebUI.setText(findTestObject('Object Repository/Add_to_cart/Page_STORE/inputloginusername'), 'ThiLoan')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Add_to_cart/Page_STORE/inputloginpassword'), 'M1Lnyl0phgn1JV2kuvT1pw==')
-
-WebUI.click(findTestObject('Object Repository/Add_to_cart/Page_STORE/button_Log in'))
-
-WebUI.click(findTestObject('Object Repository/Add_to_cart/Page_STORE/img_card-img-top img-fluid'))
-
-WebUI.click(findTestObject('Object Repository/Add_to_cart/Page_STORE/a_Add to cart'))
-
-WebUI.click(findTestObject('Object Repository/Add_to_cart/Page_STORE/a_Cart'))
-
+WebUI.click(findTestObject('Object Repository/Page_STORE/a_delete'))
