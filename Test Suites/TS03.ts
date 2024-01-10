@@ -67,4 +67,56 @@
          <variableId>955ce50c-078d-42db-b6cb-8e6f32d187f1</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f9f9ec66-2dd0-485e-94bf-bbcd3f72eb66</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Orders/O07</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8d0e7f9e-99ce-4fdb-a6b0-a575e57db9f3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Orders</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>8d0e7f9e-99ce-4fdb-a6b0-a575e57db9f3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>names</value>
+         <variableId>a62aaeef-6033-429d-b1c7-8a65f3f51e11</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8d0e7f9e-99ce-4fdb-a6b0-a575e57db9f3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>country</value>
+         <variableId>04b3ad75-ef87-4d17-9e50-8cd8b3161b64</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8d0e7f9e-99ce-4fdb-a6b0-a575e57db9f3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>city</value>
+         <variableId>68d01e92-e60b-42ad-b323-b7d1bc287e64</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8d0e7f9e-99ce-4fdb-a6b0-a575e57db9f3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>credit</value>
+         <variableId>01db6140-cbd3-4e31-b3b7-7492a716a804</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8d0e7f9e-99ce-4fdb-a6b0-a575e57db9f3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>months</value>
+         <variableId>05b53ba2-0d61-413e-8fc7-b9cb8cf56ee1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8d0e7f9e-99ce-4fdb-a6b0-a575e57db9f3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>years</value>
+         <variableId>6ec2f4e1-259b-4edd-8f3f-07b166aa1309</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
